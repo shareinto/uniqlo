@@ -1,0 +1,654 @@
+@charset "utf-8";
+
+/*
+* ご利用ガイド関連ページ専用
+* - 初めてご注文される方へ[/start.html]
+* - ご利用規約[/rule.html]
+* - 特定商取引に関する法律に基づく表示[/notice.html]
+*/
+
+/*英語TITLE*/
+#contents h2{
+	width: 948px;
+	height: 64px;
+	border-color: #dcdcdc;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+/*日本語TITLE*/
+#contents div.title{
+	border-color: #dcdcdc;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+#contents div.title h2{
+	float: left;
+	width: 720px;
+	height: 77px;
+	border: none;
+}
+
+/*ご利用ガイドトップナビ*/
+#contents div.title ul{
+	float: right;
+	width: 167px;
+	height: 27px;
+	padding: 25px 19px 0 0;
+}
+
+#contents div.title ul li,
+#contents div.title ul li a{
+	display: block;
+	width: 167px;
+	height: 27px;
+}
+
+#contents div.title ul li a{
+	background: url(../../image/rule_btn1_1.gif) no-repeat 0 0;
+}
+
+#contents div.title ul li a:hover{
+	background-position: 0 -27px;
+}
+
+/*中TITLE*/
+#contents h3{
+	background-color: #f5f5f5;
+	border-color: #dcdcdc;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+
+/*メインエリア*/
+div.main{
+	padding: 25px 24px 32px 24px;
+	border-color: #dcdcdc;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+
+/*問い合わせ*/
+div.inquiry{
+	padding: 25px 24px;
+	border-color: #dcdcdc;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	
+	font-size: 110%;
+	line-height: 210%;
+}
+
+/*ページトップ*/
+#contents div.pagetop{
+	width: 948px;
+	height: 90px;
+}
+
+#contents div.pagetop ul{
+	float: right;
+	width: 97px;
+	height: 23px;
+	padding: 9px 8px 0 0;
+}
+
+#contents div.pagetop ul li,
+#contents div.pagetop ul li a{
+	display: block;
+	width: 97px;
+	height: 23px;
+}
+
+#contents div.pagetop ul li a{
+	background: url(../image/btn_pgtp.gif) no-repeat 0 0;
+}
+
+
+/*
+*　
+*　はじめて注文される方へ
+*　
+*/
+
+body#start div.main{
+	padding-bottom: 25px;/*専用カスタム*/
+}
+
+body#start div.bt-none{
+	padding-bottom: 0;
+}
+
+
+body#start div.main .fl-left{
+	float: left;
+}
+
+body#start div.main .fl-right{
+	float: right;
+}
+
+body#start div.main .text{
+	font-size: 110%;
+	line-height: 170%;
+}
+
+body#start div.main span.caution{
+	color: #ff0000;
+	font-size: 8pt;
+}
+
+
+/**/
+body#start div.main div.section1{
+	height:500px;/*2014.9.18追加　文言を削ったら高さが足りずに画像が切れたため高さを挿入*/
+	padding-bottom:25px;
+	background: url(../../image/stat_pic1_1a.jpg) no-repeat right bottom;
+}
+
+/*[UNIQLO CUSTOMIZEを体験する]ナビ*/
+body#start div.main ul.cnavi1{
+	list-style: none;
+	width: 330px;
+	height: 39px;
+	padding: 20px 0 25px 0;
+}
+
+body#start div.main ul.cnavi1 li,
+body#start div.main ul.cnavi1 li a{
+	display: block;
+	width: 330px;
+	height: 39px;
+}
+
+body#start div.main ul.cnavi1 li a{
+	background: url(../../image/start_btn7.gif) no-repeat 0 0;
+}
+
+body#start div.main ul.cnavi1 li a:hover{
+	background-position: 0 -39px;
+}
+
+/*[その他ボタン]ナビ*/
+body#start div.main ul.cnavi3,
+body#start div.main ul.cnavi4,
+body#start div.main ul.cnavi5,
+	list-style: none;
+	width: 330px;
+	height: 39px;
+	padding: 20px 0 0px 0;
+}
+
+body#start div.main ul.cnavi6,
+body#start div.main ul.cnavi8,{
+	list-style: none;
+	width: 330px;
+	height: 39px;
+	padding: 10px 0;
+}
+
+body#start div.main ul.cnavi3 li,
+body#start div.main ul.cnavi4 li,
+body#start div.main ul.cnavi5 li,
+body#start div.main ul.cnavi6 li,
+body#start div.main ul.cnavi8 li,
+body#start div.main ul.cnavi3 li a,
+body#start div.main ul.cnavi4 li a,
+body#start div.main ul.cnavi5 li a,
+body#start div.main ul.cnavi6 li a,
+body#start div.main ul.cnavi8 li a{
+	display: block;
+	width: 330px;
+	height: 39px;
+}
+
+body#start div.main ul.cnavi3 li a{
+	background: url(../../image/start_btn3.gif) no-repeat 0 0;
+}
+
+body#start div.main ul.cnavi4 li a{
+	background: url(../../image/start_btn4.gif) no-repeat 0 0;
+}
+
+body#start div.main ul.cnavi5 li a{
+	background: url(../../image/start_btn5.gif) no-repeat 0 0;
+}
+
+body#start div.main ul.cnavi6 li a{
+	background: url(../../image/start_btn6.gif) no-repeat 0 0;
+}
+
+body#start div.main ul.cnavi8 li a{
+	background: url(../../image/start_btn8.gif) no-repeat 0 0;
+}
+
+body#start div.main ul.cnavi3 li a:hover,
+body#start div.main ul.cnavi4 li a:hover,
+body#start div.main ul.cnavi5 li a:hover,
+body#start div.main ul.cnavi6 li a:hover,
+body#start div.main ul.cnavi8 li a:hover{
+	background-position: 0 -39px;
+}
+
+/*注意書き*/
+body#start div.main ul.caution li{
+	color: #666666;
+	padding-bottom: 3px;
+}
+
+/*段落設定*/
+body#start div.main div.paragraph{
+	margin-bottom: 10px;
+}
+
+body#start div.main div.paragraph h4{
+	margin-bottom: 15px;
+}
+
+body#start div.main div.paragraph p.text{
+	margin-bottom: 10px 0 5 0px;
+}
+
+body#start div.main div.paragraph p.caution{
+	text-align: right;
+	margin-top: 5px;
+}
+
+/*フォントワークスロゴ*/
+body#start div.main div.paragraph div.logo{
+	margin-top: 15px;
+}
+
+body#start div.main div.paragraph div.logo p.fl-right{
+	width: 765px;
+}
+
+/*マイページでのデザイン共有*/
+body#start div.main div.paragraph div.share p.fl-right{
+	width: 395px;
+}
+
+
+/*ご注文の流れ*/
+body#start div.main p.arrow{
+	width: 200px;
+}
+
+body#start div.main p.arrow img{
+	margin: 6px auto 6px;
+}
+
+
+body#start div.main div.order{
+	background-color: #f1f1f1;
+}
+
+
+body#start div.main div.order div {  
+    display: table-cell;  
+    vertical-align: middle;  
+    margin: 0;
+}
+
+ /*オリジナルプリント(ご注文の流れ)**************************************/
+body#start div.main div.paragraph td.flow_text{
+    padding: 5px 5px 3px 8px;
+    font-size: 12px;
+    background-color: #efefef;
+}
+
+body#start div.main div.paragraph td.flow_text2{
+    padding: 5px 5px 3px 8px;
+    font-size: 12px;
+    background-color: #efefef;
+}
+
+
+body#start div.main div.paragraph td.flow_img{
+     padding: 3px 0px 5px 0px;
+}
+
+body#start div.main div.paragraph td.flow_img2{
+     padding: 3px 0px 5px 0px;
+}
+
+   
+/*for IE6 */  
+* html body#start div.main div.order div {  
+    display: inline;  
+    zoom: 1;  
+}
+   
+/*for IE7 */  
+*:first-child+html body#start div.main div.order div {  
+    display: inline;  
+    zoom: 1;  
+}
+
+body#start div.main div.order div.text-box {
+	width: 466px;
+	padding-left: 34px;
+	background-color: #f1f1f1;
+}
+
+
+body#start div.main div.order div.text-box ul li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+/*料金表*/
+ul.price_kome{
+    font-size: 10pt;
+    margin:4px 0 2px 1px;
+}
+
+ul.price_kome p{
+    font-size: 8pt;
+    margin:5px 0 2px 1px;
+}
+
+body#start div.main table.price2 td,
+body#start div.main table.price2 th{    
+     height: 22px;
+     border-width: 1px;
+     border-color: #000000;
+     border-style: solid;
+     text-align:center;
+     font-weight:normal
+}
+
+body#start div.main table.price2 td{
+    width: 60px;
+    font-size: 10pt;
+}
+
+body#start div.main table.price2 th{  
+    font-size: 10pt;
+}
+
+p.price{
+	margin-bottom: 10px;
+}
+
+table.price{
+	width: 830px;
+}
+
+body#start div.main table.price,
+body#start div.main table.price th,
+body#start div.main table.price td{
+	border-width: 1px;
+	border-color: #dcdcdc;
+	border-style: solid;
+}
+
+body#start div.main table.price th{
+	text-align: center;
+	color: #ffffff;
+	width: 800px;
+}
+
+
+/*料金表：シルクプリント：背景カラー：th*/
+body#start div.main table.price2 th.silk_color{
+	background-color: #ff66ff;
+}
+body#start div.main table.price2 th.silk_color_su{
+	background-color: #ff99cc;
+}
+body#start div.main table.price2 th.silk_color_yu{
+	background-color: #ff66cc;
+}
+
+
+/*料金表：ユニクロデザインツール：背景カラー：th*/
+body#start div.main table.price2 th.d_color{
+	background-color: #ff3333;
+}
+body#start div.main table.price2 th.d_color_2{
+	background-color: #ff9999;
+}
+body#start div.main table.price2 th.d_color_ten{
+	background-color: #ffcc66;
+}
+
+/*料金表：オリジナル プリント：背景カラー：th*/
+body#start div.main table.price2 th.color_1{
+	background-color: #9966ff;
+}
+body#start div.main table.price2 th.color_2{
+	background-color: #ccccff;
+}
+body#start div.main table.price2 th.color_3{
+	background-color: #9999ff;
+}
+
+/*料金表：イージーカスタマイズ プリント：背景カラー：th*/
+body#start div.main table.price2 th.ez_color{
+	background-color: #00ccff;
+}
+body#start div.main table.price2 th.ez_color_2{
+	background-color: #ccffff;
+}
+body#start div.main table.price2 th.ez_color_3{
+	background-color: #66ccff;
+}
+/*料金表：イージーカスタマイズ 転写プリント：背景カラー：th*/
+body#start div.main table.price2 th.ez_color_ten{
+	background-color: #669999;
+}
+body#start div.main table.price2 th.ez_color_ten_1{
+	background-color: #ccffff;
+}
+/*料金表：イージーカスタマイ 刺繍：背景カラー：th*/
+body#start div.main table.price2 th.ez_color_si{
+	background-color: #66ffcc;
+}
+body#start div.main table.price2 th.ez_color_si_1{
+	background-color: #99ffcc;
+}
+
+
+/*送料について*/
+body#start div.main li.text{
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+/*サイト更新T*/
+div.site_team001{
+    font-size: 10pt;
+    position: relative;
+    top: 5px;
+    left: 0px;
+}
+
+p.site_team002{
+    color: #ff0000;
+}
+
+p.site_team003{
+    position: relative;
+    top: -15px;
+    left: 700px;
+}
+
+p.site_team004{
+    position: relative;
+    top: 0px;
+    left: 50px;
+}
+
+p.site_team005{
+    position: relative;
+    top: 0px;
+    padding: 0 0 0 680px;
+}
+
+/*プリント・刺繍：th*/
+body#start div.main table.price th.print,
+body#start div.main table.price th.embroidery{
+	height: 51px;
+}
+
+body#start div.main table.price th.print{
+	background-color: #3592bd;
+}
+
+body#start div.main table.price th.print-tensya{
+	background-color: #fe7c1a;
+}
+
+
+body#start div.main table.price th.embroidery{
+	background-color: #35bd6e;
+}
+
+
+/*プリント：カラー：th*/
+body#start div.main table.price th.p-color{
+	height: 31px;
+	background: url(../../image/start_bg1.gif) repeat 0 0;
+}
+
+body#start div.main table.price th.p-color-tensya{
+	height: 31px;
+	background: url(../../image/start_bg4.gif) repeat 0 0;
+}
+
+/*刺繍：面：th*/
+body#start div.main table.price th.e-side{
+	background: url(../../image/start_bg3.gif) repeat 0 0;
+}
+
+
+/*プリント：面：th*/
+
+/*td*/
+body#start div.main table.price2 th.{
+	color: #000000;
+}
+
+body#start div.main table.price th.p-side{
+	height: 31px;
+	background: url(../../image/start_bg2.gif) repeat 0 0;
+}
+
+/*td*/
+body#start div.main table.price td{
+	font-size: 120%;
+}
+
+body#start div.main table.price td.sheets{
+	width: 112px;
+	font-weight: bold;
+	padding-left: 17px;
+}
+
+body#start div.main table.price td.price{
+	width: 130px;
+	text-align: center;
+	padding: 12px 0 12px 0;
+}
+
+body#start div.main table.price td.price .special{
+	font-weight: bold;
+	color: #ff0000;
+}
+
+body#start div.main table.price td.price .through{
+	text-decoration: line-through;
+}
+
+/*コンテンツナビ*/
+body#start div.main ul.cnavi2 li{
+	font-size: 10pt;
+	margin-bottom: 5px;
+}
+
+body#start div.main ul.cnavi2 li.bt-none{
+	margin-bottom: 0;
+}
+
+
+/*
+*　
+*　利用規約
+*　
+*/
+body#rule div.main div.section{
+	margin-bottom: 34px;
+}
+
+body#rule div.main div.sec-bot{
+	margin-bottom: 0;
+}
+
+body#rule div.main div.section h4{
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+
+body#rule div.main div.section ul{
+	font-size: 110%;
+	line-height: 170%;
+}
+
+body#rule div.main div.section ul li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+
+
+
+/*
+*　
+*　特定商取引に関する法律に基づく表示
+*　
+*/
+body#notice div.main dl.notice {
+	width: 900px;
+}
+
+body#notice div.main dl.notice dt,
+body#notice div.main dl.notice dd{
+	float: left;
+	margin-bottom: 20px;
+}
+
+
+body#notice div.main dl.notice dt {
+	width: 190px;
+	font-size: 110%;
+	line-height: 170%;
+	font-weight: bold;
+}
+
+body#notice div.main dl.notice dd {
+	width: 710px;
+}
+
+body#notice div.main dl.notice dd li{
+	text-indent: -1em;
+	margin-left: 1em;
+}
+
+body#notice div.main dl.notice dd li.far{
+	margin-bottom: 20px;
+}
+
+body#notice div.main dl.notice span.text{
+	font-size: 110%;
+	line-height: 170%;
+}
+
+body#notice div.main dl.notice span.caution{
+	font-size: 100%;
+	line-height: 150%;
+	color: #666666;
+}

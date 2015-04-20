@@ -1,0 +1,37 @@
+.sns_button_set {
+	position:relative;
+}
+
+.sns_button_set div {
+	position: absolute;
+	height: 30px;
+	top: 325px;
+	left: 640px;
+	z-index: 100;
+}
+.sns_button_set div.usersphoto {
+	top: 13px;
+	left: 823px;
+}
+
+.sns_button_set a {
+	display: inline-block;
+ *display: inline;
+ *zoom: 1;
+	width: 30px;
+	height: 30px;
+	margin: 0 5px 0 0;
+	text-indent: -9990px;
+}
+
+.sns_button_set a.twitter { background-image: url('../image/social/anchor-twitter.jpg'); }
+
+.sns_button_set a.facebook { background-image: url('../image/social/anchor-facebook.jpg'); }
+
+.sns_button_set a.googleplus { background-image: url('../image/social/anchor-googleplus.jpg'); }
+
+.sns_button_set a.twitter:hover { background-image: url('../image/social/anchor-twitter_o.jpg'); }
+
+.sns_button_set a.facebook:hover { background-image: url('../image/social/anchor-facebook_o.jpg'); }
+
+.sns_button_set a.googleplus:hover { background-image: url('../image/social/anchor-googleplus_o.jpg'); }

@@ -1,0 +1,263 @@
+.head{
+	padding-left:15px;
+	}
+
+.head h2{
+	position:relative;
+	}
+.head h2 a{
+	position:absolute;
+	top:0px;
+	left:816px;
+	}
+
+.btn01{
+	text-align:center;
+	margin-top:24px;
+	padding:0 201px 0 207px;
+	}
+
+.member{
+	background:url(../../sp/clubcustomize/image/vol2/bg01.gif) 29px 0 no-repeat;
+	margin-top:16px;
+	padding-top:22px;
+	padding-left:27px;
+	}
+.member ul{
+	margin-top:3px;
+	}
+.member li{
+	float:left;
+	padding-right:3px;
+	}
+.member li.linkbtn{
+	padding-left:242px;
+	padding-right:0px;
+	}
+
+.making{
+	background:url(../../sp/clubcustomize/image/vol2/bg01.gif) 29px 0 no-repeat;
+	margin-top:24px;
+	padding-top:26px;
+	padding-left:27px;
+	font-size:127%;
+	line-height:140%;
+	}
+
+.making dl{
+	margin-top:9px;
+	}
+.making dt{
+	float:left;
+	width:250px;
+	}
+.making dd{
+	float:left;
+	width:430px;
+	padding-left:19px;
+	}
+.making dd.linkbtn{
+	width:137px;
+	float:right;
+	margin:0px;
+	padding:0px 30px 0 0;
+	}
+.making dd.linkbtn img{
+	vertical-align:bottom;
+	}
+.making dd h4{
+	padding-top:7px;
+	}
+.making dd p{
+	padding-top:17px;
+	}
+.making dd p.notice{
+	color:#F90000;
+	margin-top:30px;
+	}
+
+.interview{
+	background:url(../../sp/clubcustomize/image/vol2/bg02.gif) 0 0 repeat;
+	margin-top:56px;
+	font-size:109%;
+	line-height:140%;
+	margin-left:27px;
+	width:892px;
+	padding-bottom:40px;
+	}
+.interview .fl{
+	float:left;
+	width:400px;
+	padding-left:32px;
+	margin-top:33px;
+	}
+.interview .fl dd{
+	padding:14px 15px 0 10px;
+	}
+.interview .fr{
+	float:left;
+	width:406px;
+	padding-left:18px;
+	margin-top:33px;
+	}
+.interview .fr dd{
+	padding:14px 10px 0 19px;
+	}
+
+
+
+.profile{
+	margin-top:41px;
+	background:url(../../sp/clubcustomize/image/vol2/bg03.gif) top left no-repeat;
+	margin-left:27px;
+	padding-bottom:23px;
+	width:892px;
+	font-size:109%;
+	line-height:140%;
+	}
+.profile .fl{
+	float:left;
+	width:553px;
+	padding:27px 0 0 19px;
+	}
+.profile .fl h3{
+	padding-left:4px;
+	}
+.profile .fl dl{
+	margin-top:23px;
+	}
+.profile .fl dt{
+	float:left;
+	width:320px;
+	margin-top:2px;
+	}
+.profile .fl dd{
+	float:left;
+	width:215px;
+	padding-left:18px;
+	}
+.profile .fl dd a{
+	color:#F90000;
+	text-decoration:underline;
+	}
+.profile .fl dd a:link{
+	text-decoration:underline;
+	}
+.profile .fl dd a:visited{
+	text-decoration:underline;
+	}
+.profile .fl dd a:hover{
+	text-decoration:none;
+	}
+	
+.profile .fr{
+	float:right;
+	width:289px;
+	margin-top:32px;
+	margin-right:15px;
+	}
+.profile .fr .txt1{
+	color:#FFFFFF;
+	background:#FF6600;
+	border:5px solid #FFFFFF;
+	border-top:0px;
+	width:242px;
+	padding:25px 15px 37px 15px;
+	margin-left:7px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pagetop{
+	text-align:right;
+	padding-right:11px;
+	padding-bottom:55px;
+	margin-top:52px;
+	}
+.pagetop a{
+	width:97px;
+	float:right;
+	}
+
+
+
+
+
+/********** clear-fix  ***********/
+.profile .fl dl:after,
+.profile:after,
+.interview:after,
+.making dl:after,
+.member ul:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	}
+
+.profile .fl dl,
+.profile,
+.interview,
+.making dl,
+.member ul{
+	zoom: 1;
+	}
+
+
+.mt1{margin-top:1px;}
+.mt2{margin-top:2px;}
+.mt3{margin-top:3px;}
+.mt4{margin-top:4px;}
+.mt5{margin-top:5px;}
+.mt6{margin-top:6px;}
+.mt7{margin-top:7px;}
+.mt8{margin-top:8px;}
+.mt9{margin-top:9px;}
+.mt10{margin-top:10px;}
+.mt11{margin-top:11px;}
+.mt12{margin-top:12px;}
+.mt13{margin-top:13px;}
+.mt14{margin-top:14px;}
+.mt15{margin-top:15px;}
+.mt16{margin-top:16px !important;}
+.mt17{margin-top:17px;}
+.mt18{margin-top:18px !important;}
+.mt19{margin-top:19px;}
+.mt20{margin-top:20px;}
+.mt21{margin-top:21px;}
+.mt22{margin-top:22px;}
+.mt23{margin-top:23px;}
+.mt24{margin-top:24px;}
+.mt25{margin-top:25px;}
+.mt26{margin-top:26px;}
+.mt27{margin-top:27px;}
+.mt28{margin-top:28px;}
+.mt29{margin-top:29px;}
+.mt30{margin-top:30px;}
+.mt32{margin-top:32px;}
+.mt35{margin-top:35px;}
+.mt38{margin-top:38px;}
+.mt39{margin-top:39px;}
+.mt40{margin-top:40px;}
+.mt42{margin-top:42px;}
+.mt43{margin-top:43px;}
+.mt45{margin-top:45px;}
+.mt50{margin-top:50px;}
+.mt55{margin-top:55px;}
+.mt60{margin-top:60px;}
+.tac{text-align:center;}
+.tar{text-align:right;}

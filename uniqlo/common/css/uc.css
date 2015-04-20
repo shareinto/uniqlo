@@ -1,0 +1,344 @@
+/*----------custom page  layout start----------*/
+
+a{
+	outline:0;
+	
+}
+
+#container #contents .title{
+	position:relative;
+	border-bottom:#dcdcdc 1px solid;
+	width:948px;
+}
+
+#container #contents #special{
+	position:absolute;
+	top:25px;
+	right:22px;
+}
+#contents h3{
+	width:948px; 
+}
+
+#container-wrap #container #contents .none{
+	margin:0px   !important;
+	padding:0px   !important;
+	border:none;
+}
+#container-wrap #container #contents .l_none{
+	margin-right:0px   !important;
+	padding-right:0px   !important;
+	border:none;
+}
+
+
+/*----------top	page ----------*/
+
+#container #contents #top{
+	background:url(../image/bg_top.gif) 0 0 repeat-y;
+	border-bottom:1px #DCDCDC solid;
+	width:948px;
+	margin:0 1px 0 0;
+}
+#container #contents #top h3#ori{
+	display:block;
+	width:474px;
+	float:left;
+}
+#container #contents #top h3#easy{
+	display:block;
+	width:473px;
+	float:right;
+}
+
+#container #contents #middle{
+	border-bottom:1px #DCDCDC solid;
+}
+#container #contents #middle ul li{
+	display:block;
+	float:left;
+	padding:2px 2px 2px 2px;
+}
+#container #contents #middle ul li.bn233{
+	width:233px;
+}
+
+#container #contents #middle ul li.bn232{
+	width:232px;
+}
+#container #contents #middle ul li.last{
+	border:none;
+	padding:2px 0px 2px 2px;
+}
+#container #contents #bottom{
+	background:url(../image/bg_btmarea.gif) 0 0 repeat-y;
+	border-bottom:1px #DCDCDC solid;
+}
+#container #contents #bottom .left{
+	float:left;
+	display:block;
+	width:445px;
+	padding:19px 5px 19px 18px;;
+}
+#container #contents #bottom .left p{
+	margin-bottom:17px;
+}
+#container #contents #bottom .left li{
+	line-height:160%;
+	width:451px;
+}
+#container #contents #bottom .left li .entry_l{
+	display:block;
+	float:left;
+	width:70px;
+	padding-right:10px;
+}
+#container #contents #bottom .left li .entry_r{
+	display:block;
+	float:left;
+	width:370px;
+}
+#container #contents #bottom .right{
+	float:right;
+	display:block;
+	width:473px;
+}
+
+
+/*----------users photo	page ----------*/
+
+#contents h3.user{
+	width:948px; 
+	border-bottom:#DCDCDC 1px solid;
+}
+
+#contents div.attent{
+	display:block;
+	font-size:13px;
+	padding:11px 12px 11px 11px;	
+	border-bottom:#DCDCDC 1px solid;
+}
+
+#container #contents .photo {
+	width:948px;
+	background:url(../../sp/user/image/bg.gif) 0 0 repeat-y;
+	border-bottom:#DCDCDC 1px solid;
+}
+#container #contents .user_area{
+	width:214px;
+	float:left;
+	display:block;
+	padding:11px 12px 11px 11px;	
+}
+#container #contents .user_area p{
+	font-size:90%;
+	line-height:120%;
+	overflow:hidden;
+	outline:none;
+}
+
+#container #contents .user_area p img{
+	border:#DCDCDC 1px solid;
+}
+
+#container #contents .user_area p.ut{
+	margin:10px 0 0 0; 
+    font-size:10px;
+}
+
+
+
+
+/*----------Free sample	page ----------*/
+#container #contents #attent{
+	border-bottom:#DCDCDC 1px solid;	
+}
+#container #contents #attent p{
+	margin:15px 0 13px 18px;
+	font-size:120%;
+	line-height:150%;
+}
+#container #contents #attent p span{
+	font-size:90%;
+	color:#FF0000;
+	font-weight:normal;
+}
+
+
+#container #contents .sample{
+	border-bottom:#DCDCDC 1px solid;
+	padding-left: 11px;
+}
+#container #contents .sample .des_area{
+	width:294px;
+	float:left;
+	display:inline;
+	margin-right:11px;
+	padding-right:11px;
+	border-right: 1px #DCDCDC solid;
+}
+#container #contents .sample .des_area .picture{
+	width:290px;
+	border:2px solid #DDDDDD;
+	margin-bottom:5px;
+	margin-top:11px;
+}
+#container #contents .sample .des_area ul{
+	overflow:hidden;
+	_height:1%;
+	padding-bottom:12px;
+}
+#container #contents .sample .des_area li{
+	float:left;
+	display:block;
+	width:145px;
+}
+#container #contents .r_btn{
+	float:right	!important;
+}
+
+#container #contents .sample .des_area .name{
+	margin:0 auto;
+	display:block;
+	width:63px;
+	margin-bottom:11px;
+}
+
+
+
+/*----------select	page ----------*/
+
+#container #contents .choice{
+	background:url(../../image/bg_select.gif) 0 0 repeat-y;
+	padding:11px 0px 0px 11px;
+	border-bottom:#DCDCDC 1px solid;
+}
+#container #contents .choice .menu{
+	width:294px;
+	float:left;
+	display:block;
+	padding-bottom:20px;
+	margin-right:22px;
+}
+#container #contents .choice .menu .picture{
+	width:294px;
+	margin-bottom:15px;
+}
+
+#container #contents .choice .menu .text{
+	width:294px;
+	height:90px;
+	margin-bottom:15x;
+}
+
+#container #contents .choice .menu .name{
+	width:178px;
+	margin:0 0 0 0;
+	display:block;
+	margin-bottom:17px;
+}
+#container #contents .choice .menu p{
+	font-size:110%;
+	line-height:150%;
+	margin:0 auto;
+	display:block;
+	width:290px;
+}
+/*[その他ボタン]ナビ*/
+
+
+#container #contents .choice .menu p.cnavi01{
+	width: 294px;
+	height: 39px;
+	padding: 20px 0 0 0;
+
+	}
+
+#container #contents .choice .menu p.cnavi01,
+#container #contents .choice .menu p.cnavi01 a{
+	display: block;
+	width: 294px;
+	height: 39px;
+}
+
+
+#container #contents .choice .menu p.cnavi01 a{
+background: url(../../image/select_btn01.gif) no-repeat 0 0;
+}
+
+#container #contents .choice .menu p.cnavi01 a:hover{
+	background-position: 0 -39px;
+}
+
+/*[その他ボタン]セレクト＿シルク*/
+#container #contents .choice .menu p.cnavi_silk{
+	width: 294px;
+	height: 39px;
+	padding: 20px 0 0 0;
+
+	}
+
+#container #contents .choice .menu p.cnavi_silk,
+#container #contents .choice .menu p.cnavi_silk a{
+	display: block;
+	width: 294px;
+	height: 39px;
+}
+
+
+#container #contents .choice .menu p.cnavi_silk a{
+background: url(../../image/select_btn_silk.gif) no-repeat 0 0;
+}
+
+#container #contents .choice .menu p.cnavi_silk a:hover{
+	background-position: 0 -39px;
+}
+
+/*[その他ボタン]セレクト＿インク*/
+#container #contents .choice .menu p.cnavi_ink{
+	width: 294px;
+	height: 39px;
+	padding: 20px 0 0 0;
+
+	}
+
+#container #contents .choice .menu p.cnavi_ink,
+#container #contents .choice .menu p.cnavi_ink a{
+	display: block;
+	width: 294px;
+	height: 39px;
+}
+
+
+#container #contents .choice .menu p.cnavi_ink a{
+background: url(../../image/select_btn_ink.gif) no-repeat 0 0;
+}
+
+#container #contents .choice .menu p.cnavi_ink a:hover{
+	background-position: 0 -39px;
+}
+
+
+/*ページトップ*/
+#contents div.pagetop{
+	width: 948px;
+	height: 90px;
+}
+
+#contents div.pagetop ul{
+	float: right;
+	width: 97px;
+	height: 23px;
+	padding: 9px 8px 0 0;
+}
+
+#contents div.pagetop ul li,
+#contents div.pagetop ul li a{
+	display: block;
+	width: 97px;
+	height: 23px;
+}
+
+#contents div.pagetop ul li a{
+	background: url(../image/btn_pgtp.gif) no-repeat 0 0;
+}
