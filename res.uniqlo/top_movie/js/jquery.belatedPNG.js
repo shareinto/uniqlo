@@ -43,7 +43,7 @@ Absolutely everything in this script is SILLY.  I know this.  IE's rendering of 
 			var screenStyleSheet, printStyleSheet;
 			screenStyleSheet = doc.createElement('style');
 			screenStyleSheet.setAttribute('media', 'screen');
-			doc.documentElement.firstChild.insertBefore(screenStyleSheet, doc.documentElement.firstChild.firstChild);
+			//doc.documentElement.firstChild.insertBefore(screenStyleSheet, doc.documentElement.firstChild.firstChild);
 			if (screenStyleSheet.styleSheet) {
 				var selector = !$.support.opacity && !$.support.style
 					? this.ns + '\\:*' : this.ns + '\\:shape, ' + this.ns + '\\:fill';

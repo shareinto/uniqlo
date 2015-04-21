@@ -13,12 +13,17 @@ namespace uniqlo
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
             routes.MapRoute(
-               name: "top",
+              name: "Select",
+              url: "select.html",
+              defaults: new { controller = "Home", action = "Select", id = UrlParameter.Optional }
+              );
+            routes.MapRoute(
+               name: "Top",
                url: "index.html",
                defaults: new { controller = "Home", action = "Top", id = UrlParameter.Optional }
                );
             routes.MapRoute(
-              name: "start",
+              name: "Start",
               url: "start.html",
               defaults: new { controller = "Home", action = "Start", id = UrlParameter.Optional }
               );
