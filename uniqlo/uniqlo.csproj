@@ -181,7 +181,6 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -262,12 +261,15 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <None Include="Views\Home\selitem.cshtml" />
     <None Include="Views\Home\information17.cshtml" />
     <None Include="Views\Home\notice.cshtml" />
     <None Include="Views\Home\rule.cshtml" />
     <None Include="Views\Home\select.cshtml" />
     <None Include="Views\Home\start.cshtml" />
     <None Include="Views\Home\top.cshtml" />
+    <None Include="Views\Home\store.cshtml" />
+    <None Include="Views\Home\simulation.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
