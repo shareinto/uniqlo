@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("res.uniqlo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Microsoft")]
 [assembly: AssemblyProduct("res.uniqlo")]
-[assembly: AssemblyCopyright("版权所有(C)  2015")]
+[assembly: AssemblyCopyright("版权所有(C) Microsoft 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 如果此项目向 COM 公开，则下列 GUID 用于类型库的 ID
-[assembly: Guid("9208e306-4e26-4a06-9be9-198ed075878e")]
+[assembly: Guid("026b3075-d126-493b-b463-555e7309d2a5")]
 
 // 程序集的版本信息由下列四个值组成:
 //
