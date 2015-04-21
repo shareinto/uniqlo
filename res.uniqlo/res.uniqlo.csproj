@@ -57,6 +57,11 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="116.252.178.237_19991\ad.07a7e.js" />
+    <Content Include="116.252.178.237_19991\main0764.js" />
+    <Content Include="116.252.178.237_9991\ad.07a7e.js" />
+    <Content Include="116.252.178.237_9991\main72cf.js" />
+    <Content Include="commond41d.js" />
     <Content Include="common\css\ctm_pri.css" />
     <Content Include="common\css\default.css" />
     <Content Include="common\css\import.css" />
@@ -119,6 +124,7 @@
     <Content Include="common\js\jquery.js" />
     <Content Include="common\js\news.js" />
     <Content Include="common\js\usersphoto.js" />
+    <Content Include="easingd41d.js" />
     <Content Include="image\20120420btn01.gif" />
     <Content Include="image\20120420select_inkjet.jpg" />
     <Content Include="image\bg_select.gif" />
@@ -458,6 +464,7 @@
     <Content Include="top_movie\imgs\s14_variation_07.jpg" />
     <Content Include="top_movie\imgs\s14_variation_08.jpg" />
     <Content Include="top_movie\imgs\s19_logo.png" />
+    <Content Include="top_movie\imgs\s19_replay.jpg" />
     <Content Include="top_movie\imgs\s19_txt4.png" />
     <Content Include="top_movie\js\jquery.belatedPNG.js" />
     <Content Include="top_movie\js\top.js" />
