@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+/*
+全ページ共通のレイアウト
+*/
+
+#container-wrap{
+	width: 950px;
+	min-height: 100%;
+	margin: 0 auto;
+	background: url(../image/body_bg.gif) repeat-y 0 0;
+}
+
+* html div#container-wrap { height: 100%; }
+
+#container {
+	padding-bottom: 35px;
+}
+
+
+
+/* header navi */
+
+#hnavi-wrap{
+	height:70px;
+	padding:0 1px;
+	}
+#hnavi-wrap .logo1{
+	float:left;
+	width:70px;
+	}
+#hnavi-wrap .logo2{
+	float:left;
+	width:308px;
+	border-bottom:1px solid #DCDCDC;
+	padding:22px 0 17px 16px;
+	}
+#hnavi-wrap .hnav{
+	float:left;
+	width:341px;
+	height:69px;
+	border-bottom:1px solid #DCDCDC;
+	padding:0 0 0 123px;
+	}
+#hnavi-wrap .hnav .hnav1 li{
+	float:left;
+	border-left:2px solid #7F7F7F;
+	padding:0 6px;
+	margin-top:6px;
+	}
+#hnavi-wrap .hnav .hnav1 li.firstChild{
+	border-left:none;
+	padding-left:0;
+	}
+#hnavi-wrap .hnav .hnav2{
+	margin-left:92px;
+	}
+#hnavi-wrap .hnav .hnav2 li{
+	float:left;
+	border-left:2px solid #7F7F7F;
+	padding:0 14px;
+	margin-top:20px;
+	}
+#hnavi-wrap .hnav .hnav2 li.firstChild{
+	border-left:none;
+	padding-left:0;
+	}
+#hnavi-wrap .hnav3{
+	border-bottom:1px solid #DCDCDC;
+	float:left;
+	width:90px;
+	}
+#hnavi-wrap .hnav3 li{
+	float:left;
+	width:90px;
+	}
+
+
+
+/*contents area*/
+#contents{
+	width: 948px;
+	margin: 0 1px 0 1px;
+	text-align: left;
+	font-size: 85%;
+}
+
+/* pagetop */
+#pagetop{
+	padding:60px 19px 45px 19px;
+	}
+#pagetop a{
+	display:block;
+	float:right;
+	}
+
+/* footer area*/
+#footer{
+	padding:0 1px 0 1px;
+	}
+#footer .fnav1{
+	background:#333333;
+	}
+#footer .fnav1 ul{
+	float:left;
+	width:366px;
+	padding:8px 0 10px 15px;
+	}
+#footer .fnav1 ul li{
+	float:left;
+	}
+#footer .fnav1 address{
+	float:left;
+	width:242px;
+	padding:8px 0 8px 286px;
+	}
+#footer .fnav1 p{
+	float:right;
+	width:28px;
+	}
+#footer .fnav2{
+	margin-top:7px;
+	margin-left:12px;
+	}
+#footer .fnav2 dt{
+	float:left;
+	}
+#footer .fnav2 dd{
+	float:left;
+	}
+
+
+
+/********** clear-fix  ***********/
+#pagetop:after,
+#footer .fnav2:after,
+#footer .fnav1 ul:after,
+#footer .fnav1:after,
+.hnav3:after,
+.hnav2:after,
+.hnav1:after,
+#hnavi-wrap:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+#pagetop,
+#footer .fnav2,
+#footer .fnav1 ul,
+#footer .fnav1,
+.hnav3,
+.hnav2,
+.hnav1,
+#hnavi-wrap {
+	zoom: 1;
+}

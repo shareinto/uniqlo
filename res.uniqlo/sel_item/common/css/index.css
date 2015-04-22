@@ -1,0 +1,63 @@
+@charset "utf-8";
+
+/*
+トップのFlash専用
+*/
+
+body#index #container-wrap{
+	position: relative;
+	height: 100%;
+	min-width: 950px;
+	min-height: 680px;
+	background: none;
+}
+
+
+body#index #container {
+	position: absolute;
+	margin: -340px 0 0 -475px;
+	padding-bottom: 0;
+	top: 50%;
+	left: 50%;
+	width: 950px;
+	height: 680px;
+	background: url(../image/body_bg.gif) repeat-y 0 0;
+}
+
+
+/*header area*/
+body#index #header{
+	border-color: #dcdcdc;
+	border-style: solid;
+	border-width: 1px 0 1px;
+}
+
+/*flash area*/
+body#index #flash-wrap{
+	width: 948px;
+	height: 570px;
+	margin: 0 1px 0 1px;
+	border-color: #dcdcdc;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+}
+
+
+/* footer area*/
+body#index #footer{
+	width: 950px;
+	height: 15px;
+	padding-top: 8px;
+	padding-bottom: 15px;
+	margin: 0;
+	background-color: #ffffff;
+	border-style: none;
+}
+
+body#index #footer p.copy{
+	padding: 0;
+}
+
+body#index ul#fnavi{
+	padding: 0;
+}
